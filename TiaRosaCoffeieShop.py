@@ -1,6 +1,6 @@
 """
     Atividade Ativa - Desenvolvimento de Sistemas em Python
-    Dicente: João Felipe Nascimento de Oliveira
+    Discente: João Felipe Nascimento de Oliveira
     Professor: Francisco Lima
     Turma: Lógica- Algoritmos e Programação de Computadores [2026321]
 """
@@ -62,7 +62,6 @@ clientes = []
 
 
 # Gerar histórico de vendas
-
 def gravar_venda(cliente_nome, itens_pedido, valor_total, desconto = 0.0):
     diretorio_script = os.path.dirname(os.path.abspath(__file__))
     caminho_relatorio = os.path.join(diretorio_script, "relatorio_tia_rosa.txt")
@@ -109,6 +108,24 @@ def exibir_cardapio():
         print(f"   Ingredientes: {prod.descricao}")
     print("--------------------\n")
 
+
+""" Cardápio para caso dê erro no arquivo
+codigo;nome;preco;descricao
+1;Café Expresso;6.50;Café concentrado e encorpado 50ml
+2;Cappuccino;9.00;Café, leite vaporizado, cacau e canela
+3;Chocolate Quente Cremoso;11.00;Bebida cremosa à base de cacau nobre e leite vaporizado
+4;Pão de Queijo;5.00;Tradicional pão de queijo de Minas assado na hora
+5;Porção de Pão de Queijo;16.00;Porção com 6 mini pães de queijo recheados com o sabor de minas
+6;Coxinha de Frango;8.50;Massa crocante com recheio succulento de frango desfiado com catupiry
+7;Bolo de Fubá;7.00;Fatia de bolo artesanal caseiro com toque de erva-doce
+8;Bolo de Chocolate;8.50;Fatia de bolo fofinho com cobertura generosa de brigadeiro da Tia
+9;Bolo de Cenoura;8.00;Fatia do clássico bolo de cenoura com cobertura durinha de chocolate
+10;Tapioca com Ovo;12.00;Massa de mandioca recheada com ovos mexidos temperados
+11;Tapioca de Queijo e Presunto;13.50;Massa levinha com queijo derretido e presunto fatiado
+12;Cuscuz com Ovo;15.00;Cuscuz nordestino quentinho servido com ovos fritos na manteiga
+13;Suco Natural de Laranja;8.00;Suco 100% natural e espremido na hora 300ml
+14;Suco de Polpa de Maracujá;8.50;Suco refrescante e natural de maracujá 300ml
+"""
 
 # Realizar busca de cliente por CPF para participar do desconto de fidelidade
 def buscar_cliente(cpf):
@@ -175,7 +192,6 @@ def realizar_pedido():
                     produto_encontrado = p
                     break
 
-            # Bloco recuado para fora do loop 'for'
             if produto_encontrado:
                 itens_pedido.append(produto_encontrado)
                 subtotal += produto_encontrado.preco

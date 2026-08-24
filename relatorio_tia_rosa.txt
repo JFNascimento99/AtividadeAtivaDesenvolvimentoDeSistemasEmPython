@@ -1,0 +1,31 @@
+    Novo pedido    
+Cliente: João Felipe 
+-> Café Expresso: R$ 6.50 
+-> Cappuccino: R$ 9.00 
+-> Chocolate Quente Cremoso: R$ 11.00 
+-> Pão de Queijo: R$ 5.00 
+-> Porção de Pão de Queijo: R$ 16.00 
+-> Coxinha de Frango: R$ 8.50 
+-> Bolo de Fubá: R$ 7.00 
+-> Bolo de Chocolate: R$ 8.50 
+-> Bolo de Cenoura: R$ 8.00 
+-> Tapioca com Ovo: R$ 12.00 
+-> Tapioca de Queijo e Presunto: R$ 13.50 
+-> Cuscuz com Ovo: R$ 15.00 
+-> Suco Natural de Laranja: R$ 8.00 
+-> Suco de Polpa de Maracujá: R$ 8.50 
+Meus parabéns, desconto de fidelidade resgatato! 
+ -R$ 5.00 
+Total Final: 131.50 
+--------------------
+
+    Novo pedido    
+Cliente: Cliente 
+-> Café Expresso: R$ 6.50 
+-> Cappuccino: R$ 9.00 
+-> Chocolate Quente Cremoso: R$ 11.00 
+-> Café Expresso: R$ 6.50 
+-> Café Expresso: R$ 6.50 
+Total Final: 39.50 
+--------------------
+
